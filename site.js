@@ -33,6 +33,7 @@ const vue_app = Vue.createApp({
         return {
             // This holds your movies.json data.
             movies: [],
+            trueMonths: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
             title: "IMDB + Albert Tedeschi's Top 8 Movies",
             owner: " Albert Tedeschi",
             github: "https://github.com/ATedeschi247/Movie-Poster-Project",
@@ -41,6 +42,27 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+                  var year = dateArray[0];
+                  var month = this.trueMonths[dateArray[1] - 1];
+                  var day = dateArray[2];
+
+                  return month + ' ' + day + ', ' + year;
+            },
+            like(index) {
+                  this.movies[index].likes++;
+            },
+            dislike(index) {
+                  this.movies[index].dislikes++;
+            },
+            posterClick(index) {
+                  if(this.movies[index].posterindex < this.movies[index].posters.length) {
+                        this.movies[index].posterindex++;
+                  };
+                  if(this.movies[index].posterindex >= this.movies[index].posters.length) {
+                        this.movies[index].posterindex = 0;
+                  }
+            },
       }
 })
 
