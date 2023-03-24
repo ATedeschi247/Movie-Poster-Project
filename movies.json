@@ -6,7 +6,7 @@
             "runtime": 142,
             "released": [1994, 10, 14],
             "country": "USA",
-            "posters": ["img/shawshank.jpg", "img/shawshank2.jpg", "img/shawshank3.jpg"],
+            "posters": ["img/shawshank.jpg", "img/shawshank2.jpg", "img/shawshank3.jpg", "img/IMG_1835.JPG", "img/IMG_3096.JPG"],
             "imdb": "http://www.imdb.com/title/tt0111161",
             "website": "https://www.facebook.com/ShawshankRedemptionFilm",
             "likes": 1021,
@@ -68,5 +68,48 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Coco",
+            "iscore": 8.4,
+            "rating": "PG",
+            "runtime": 105,
+            "released": [2017, 11, 22],
+            "country": "USA",
+            "posters": ["img/Coco-movie-review-safe-for-kids.webp", "img/s-l1600.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2380307/",
+            "website": "https://movies.disney.com/coco",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "The SpongeBob SquarePants Movie",
+            "iscore": 7.1,
+            "rating": "PG",
+            "runtime": 87,
+            "released": [2004, 11, 19],
+            "country": "USA",
+            "posters": ["img/MV5BZjM5YjI0NmQtOTk4OS00NTNiLThkNzQtNTZlNGE4Y2VmNmU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg", "img/71532.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0345950/",
+            "website": "https://en.wikipedia.org/wiki/The_SpongeBob_SquarePants_Movie",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "Spider-Man: No Way Home",
+            "iscore": 8.2,
+            "rating": "PG-13",
+            "runtime": 148,
+            "released": [2021, 12, 17],
+            "country": "USA",
+            "posters": ["img/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg", "img/815IBWT+WeL.jpg", "img/peter_two.jpg"],
+            "imdb": "https://www.imdb.com/title/tt10872600/",
+            "website": "https://www.spidermannowayhome.movie/",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
       }
+
 ]
