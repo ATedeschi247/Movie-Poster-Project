@@ -35,7 +35,8 @@
 
 	      <div class="row">
 
-	        <div class="col-md-6" v-for="(movie, index) in movies">
+	        <div class="col-md-6" v-for="(movie, index) in movies">         
+				 <!-- v-for loop to repeatedly make columns within this bootstrap row -->
 	            <div class="thumbnail">
 												  <!-- ^ allows the index to be used later in the code -->
 						<img class="poster img-fluid" :src="movie.posters[movie.posterindex]" @click="posterClick(index)">
@@ -58,7 +59,7 @@
 	    </div>
 
 	    <div class="footer">
-	      <div class="container">
+	      <div class="container"> <!-- Footer for link to github repository -->
 			<a :href="github" id="github" target="_blank" class="btn btn-lg btn-warning">
 				<i class="bi bi-github me-2">{{ owner }}</i>
 	  		</a>
