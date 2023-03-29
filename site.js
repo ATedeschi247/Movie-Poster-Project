@@ -34,7 +34,7 @@ const vue_app = Vue.createApp({
             // This holds your movies.json data.
             movies: [],
             trueMonths: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-            title: "IMDB + Albert Tedeschi's Top 8 Movies",
+            title: "Albert Tedeschi's Top Movies",
             owner: " Albert Tedeschi",
             github: "https://github.com/ATedeschi247/Movie-Poster-Project",
          

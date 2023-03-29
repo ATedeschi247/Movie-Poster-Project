@@ -5,7 +5,7 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url("https://img.pikbest.com/backgrounds/20200326/seamless-pattern-with-symmetric-geometric-lines-on-the-navy-blue-background--v_1732140jpg!bw700");
 }
 
 /* This stylizes the header area */
@@ -19,8 +19,9 @@ body {
 
 /* This stylizes the main page area */
 .main {
-    background-color: #f2f2f2;
+    background-color: transparent;
     padding: 40px 0;
+    padding-top: 0px;
 }
 
 /* This stylizes the poster area and poster images */
